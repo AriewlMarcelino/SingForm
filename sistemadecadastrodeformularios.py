@@ -75,7 +75,7 @@ TECNOLOGIAS
 """
 
 import sqlite3
-import os
+
 
 class SQliteBancoDeDados():
     def __init__(self):
@@ -247,10 +247,6 @@ excluir_usuario = ExcluirUsuario()
 excluir_usuario.excluir_usuario()
 
 """# Interface de execução do Sistema"""
-
-from copy import Error
-import os
-import sqlite3
 
 # Interface com as seguintes opções para o usuario
 
